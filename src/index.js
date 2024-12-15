@@ -27,7 +27,8 @@ const allHanziCharacters = getAllHanziCharacters()
 
 async function generateImagesFromChars(chars) {
   // 确保输出目录存在
-  const outputDir = path.resolve(__dirname, "./imgs");
+//   const outputDir = path.resolve(__dirname, "./imgs"); // 这个目录用来存放文津宋体产出的文字图片
+  const outputDir = path.resolve(__dirname, "./images"); // 这个目录用来存放天珩全字库产出的文字图片
   await ensureDirectoryExists(outputDir);
 
   // 启动浏览器
@@ -42,9 +43,13 @@ async function generateImagesFromChars(chars) {
 
   // 加载一次字体，并确保其已准备好
   const fontPaths = [
-    path.resolve(__dirname, "fonts/WenJinMinchoP0-Regular.ttf"),
-    path.resolve(__dirname, "fonts/WenJinMinchoP2-Regular.ttf"),
-    path.resolve(__dirname, "fonts/WenJinMinchoP3-Regular.ttf"),
+    // path.resolve(__dirname, "fonts/WenJinMinchoP0-Regular.ttf"),
+    // path.resolve(__dirname, "fonts/WenJinMinchoP2-Regular.ttf"),
+    // path.resolve(__dirname, "fonts/WenJinMinchoP3-Regular.ttf"),
+    path.resolve(__dirname, "fonts/TH-Tshyn-P0.ttf"),
+    path.resolve(__dirname, "fonts/TH-Tshyn-P1.ttf"),
+    path.resolve(__dirname, "fonts/TH-Tshyn-P2.ttf"),
+    path.resolve(__dirname, "fonts/TH-Tshyn-P16.ttf"),
   ];
 
   let usedFontPath;
@@ -71,6 +76,7 @@ async function generateImagesFromChars(chars) {
                         .char {
                             font-family: 'CustomFont', sans-serif;
                             font-size: 90px; /* Adjust size to fit within 120x120 */
+                            font-weight: bold;
                             color: #333;
                             margin: 0;
                         }
