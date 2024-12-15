@@ -1,0 +1,19 @@
+{
+  "name": "hanzi-imgs",
+  "version": "1.0.0",
+  "description": "所有汉字的图片（截止至Unicode15.1）",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "tsx ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vearvip/hanzi-utils": "^1.0.8", 
+    "puppeteer": "^23.10.4" 
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
