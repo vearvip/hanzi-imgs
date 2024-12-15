@@ -16,16 +16,16 @@ npm run start
 > 推荐
 
 ```js
-https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v2/src/images/唯.png
+https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v3/src/images/唯.png
 ``` 
 
-<image src="https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v2/src/images/唯.png" />
+<image src="https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v3/src/images/唯.png" />
 
 ### 采用文津宋体（WenJinMincho）
 
 ```js
-https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v2/src/imgs/二.png
+https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v3/src/imgs/二.png
 ``` 
 
-<image src="https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v2/src/imgs/二.png" />
+<image src="https://cdn.jsdelivr.net/gh/vearvip/hanzi-imgs@v3/src/imgs/二.png" />
 
