@@ -76,7 +76,6 @@ async function generateImagesFromChars(chars) {
                         .char {
                             font-family: 'CustomFont', sans-serif;
                             font-size: 90px; /* Adjust size to fit within 120x120 */
-                            font-weight: bold;
                             color: #333;
                             margin: 0;
                         }
